@@ -32,7 +32,7 @@ yarn install
 
 ### 3. Set up the Google API client secret
 
-To authenticate with the Google API, you'll need a `client_secret.json` file. You can obtain this file by creating a new project in the [Google API Console](https://console.developers.google.com/), enabling the YouTube Data API v3, and creating OAuth 2.0 credentials with the scope of `youtube.force-ssl`. 
+To authenticate with the Google API, you'll need a `client_secret.json` file. You can obtain this file by creating a new project in the [Google API Console](https://console.developers.google.com/), enabling the YouTube Data API v3, and creating OAuth 2.0 credentials with the scope of `youtube.youtube.readonly`. 
 
 Once you have your `client_secret.json` file, place it in the following directory:
 

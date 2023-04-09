@@ -8,7 +8,7 @@ const axios = require('axios');
 
 const SCOPES = ['https://www.googleapis.com/auth/youtube.force-ssl'];
 const TOKEN_PATH = path.join(__dirname, 'assets', 'certs', 'token.json');
-const clientSecretPath = path.join(__dirname, 'assets', 'certs', 'client_secret_221083376303-gr2e26fmql5nap9162t954fr4mjah9sl.apps.googleusercontent.com.json');
+const clientSecretPath = path.join(__dirname, 'assets', 'certs', 'client_secret.json');
 
 async function getLiveStreamUrl() {
   const content = await fs.promises.readFile(clientSecretPath);
